@@ -16,23 +16,6 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>com.domain.project</groupId>
-            <artifactId>Core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-        </dependency>
-    </dependencies>
-
-
-    <repositories>
-        <repository>
-            <id>ExternalJarProject</id>
-            <url>file://${project.basedir}\lib\external-jar-with-dependencies.jar</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
 
     <build>
         <finalName>main_project</finalName>
